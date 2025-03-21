@@ -16,7 +16,7 @@ h1 {
 body {
     background-color: white;
     background-image: url("image/photo-1627334901021-b7378029fd05.avif");
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center;
     overflow: scroll;
 }
@@ -25,10 +25,12 @@ body {
 /*****************content*******************/
 .content {
 display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-template-columns: repeat(6,300px);
 justify-content: space-around;
 font-weight: bold;
 font-size: 15px;
+background-color: rosybrown;
+padding: 15px;
 }
 
 /**************grid and articles******/
@@ -86,8 +88,8 @@ font-size: 15px;
 
 /***********/
 .quu {
-    height: 200px;
-    width: 400px;
+    
+    width: 100px;
 
 }
 
@@ -100,6 +102,11 @@ font-size: 15px;
 /*************heading******************/
 .yyyyy {
     font-size: 20px;
+}
+
+article {
+    background-color: antiquewhite;
+    border-radius: 20px;
 }
 
 
