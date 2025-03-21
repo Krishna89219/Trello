@@ -31,7 +31,7 @@ font-weight: bold;
 font-size: 15px;
 background-color: rosybrown;
 padding: 15px;
-overflow: hidden;
+overflow-y: auto;
 height: 70vh;
 gap: 20px;
 }
