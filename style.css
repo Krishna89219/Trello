@@ -1,0 +1,112 @@
+/********************h1***************/
+
+h1 {
+    color: black;}
+
+#n1, #n2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex {
+    display: flex;
+}
+
+/************background image ********************/
+body {
+    background-color: white;
+    background-image: url("image/photo-1627334901021-b7378029fd05.avif");
+    background-attachment: scroll;
+    background-position: center;
+    overflow: scroll;
+}
+
+
+/*****************content*******************/
+.content {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+justify-content: space-around;
+font-weight: bold;
+font-size: 15px;
+}
+
+/**************grid and articles******/
+/************box color white **********/
+.grid1 {
+    background-color: white;
+}
+
+/************image******************/
+.qw {
+    height: 50px;
+    width: 60px;
+
+}
+
+/************1st day**********/
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+
+/***************1st week*********/
+.rectangle {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+/**************task completed**********/
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+}
+
+/***************who do i talk to?***********/
+.diamond {
+    height: 50px;
+    width: 50px;
+    background-color: seagreen;
+}
+
+/*********************company culture*********/
+.cube {
+    height: 50px;
+    width: 50px;
+    background-color:gold;
+}
+
+/******************who's who****************/
+.cylinder {
+    height: 100px;
+    width: 400px;   
+}
+
+/***********/
+.quu {
+    height: 200px;
+    width: 400px;
+
+}
+
+/*******margin(space) around each section****/
+.sss {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+/*************heading******************/
+.yyyyy {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
