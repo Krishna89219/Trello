@@ -18,7 +18,7 @@ body {
     background-image: url("image/photo-1627334901021-b7378029fd05.avif");
     background-attachment: fixed;
     background-position: center;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 
@@ -31,6 +31,9 @@ font-weight: bold;
 font-size: 15px;
 background-color: rosybrown;
 padding: 15px;
+overflow: hidden;
+height: 70vh;
+gap: 20px;
 }
 
 /**************grid and articles******/
@@ -107,6 +110,11 @@ padding: 15px;
 article {
     background-color: antiquewhite;
     border-radius: 20px;
+    overflow: auto;
+}
+
+html {
+    overflow: hidden;
 }
 
 
